@@ -1,1 +1,120 @@
-<h1>XD</h1>
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Encantia - Código de Creador</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Inter', sans-serif;
+      background-color: #121212;
+      color: #e0e0e0;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      padding: 40px 20px;
+    }
+
+    h1 {
+      font-size: 28px;
+      font-weight: 600;
+      margin-bottom: 30px;
+      text-align: center;
+      color: #ffffff;
+    }
+
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+      gap: 20px;
+      width: 100%;
+      max-width: 800px;
+    }
+
+    .card {
+      background-color: #1e1e1e;
+      padding: 20px;
+      border-radius: 16px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.4);
+      transition: transform 0.2s ease;
+    }
+
+    .card:hover {
+      transform: translateY(-5px);
+    }
+
+    .card i {
+      font-size: 32px;
+      margin-bottom: 12px;
+      color: #90caf9;
+    }
+
+    .platform {
+      font-size: 18px;
+      font-weight: 600;
+      margin-bottom: 6px;
+    }
+
+    .followers {
+      font-size: 15px;
+      color: #bbbbbb;
+    }
+
+    @media (max-width: 480px) {
+      h1 {
+        font-size: 22px;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <h1>Requisitos para Código de Creador en Encantia</h1>
+  
+  <div class="grid">
+    <div class="card">
+      <i class="fab fa-youtube"></i>
+      <div class="platform">YouTube</div>
+      <div class="followers">100 suscriptores</div>
+    </div>
+    <div class="card">
+      <i class="fab fa-twitch"></i>
+      <div class="platform">Twitch</div>
+      <div class="followers">50 seguidores</div>
+    </div>
+    <div class="card">
+      <i class="fab fa-kickstarter-k"></i>
+      <div class="platform">Kick</div>
+      <div class="followers">50 seguidores</div>
+    </div>
+    <div class="card">
+      <i class="fab fa-instagram"></i>
+      <div class="platform">Instagram</div>
+      <div class="followers">100 seguidores</div>
+    </div>
+    <div class="card">
+      <i class="fab fa-tiktok"></i>
+      <div class="platform">TikTok</div>
+      <div class="followers">300 seguidores</div>
+    </div>
+    <div class="card">
+      <i class="fab fa-facebook-f"></i>
+      <div class="platform">Facebook</div>
+      <div class="followers">50 seguidores</div>
+    </div>
+    <div class="card">
+      <i class="fab fa-linkedin-in"></i>
+      <div class="platform">LinkedIn</div>
+      <div class="followers">50 seguidores</div>
+    </div>
+  </div>
+
+</body>
+</html>
